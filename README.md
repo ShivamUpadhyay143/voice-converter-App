@@ -1,0 +1,1 @@
+html css and javascript are mainly used in this text to voice and voice to text converter . It consist a user interface in which we type some text and can convert that text to speak and if we speak something that word will be converted to text .
