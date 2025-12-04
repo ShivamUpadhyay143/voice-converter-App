@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Voice Converter App</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>🗣️ Voice Converter <span>App</span></h1>
+
+      <textarea id="text-input" placeholder="Type or convert your speech here..."></textarea>
+
+      <div class="controls">
+        <select id="voiceSelect"></select>
+        <div class="btns">
+          <button id="speakBtn">🔊 Speak</button>
+          <button id="recordBtn">🎙️ Speak to Text</button>
+          <button id="copyBtn">📋 Copy</button>
+          <button id="clearBtn">🧹 Clear</button>
+        </div>
+      </div>
+
+      <h3>🕓 Conversion History</h3>
+      <ul id="history"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
